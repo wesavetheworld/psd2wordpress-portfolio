@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Minimal Portfolio Theme</title>
+	<meta name="description" content="This is a minimal WordPress portfolio theme created exclusively for a Tuts+ Premium course">
+	<meta name="author" content="Adi Purdila">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/styles.css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic,600italic' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet'>	
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header class="main-header align-center section-content">
+		<a href="index.html" class="logo"><img src="images/logo.png" alt="Minimal Portfolio Theme" /></a>
+		
+		<nav class="main-nav">
+			<ul class="inline">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	
+	
+	
+	<!-- CONTENT AREA -->
+	<section>
+		<hr class="no-margin" />
+		
+		<div class="middle-container section-content">
+			<div class="container box section-content align-center contact-page">
+				<h2>Let's Get in Touch</h2>
+				
+				<p class="narrow-p">You can call me, email me directly or connect with me through my social networks.</p>
+				<p>(+40) 744122222 <br /> <a href="#">hello@adipurdila.com</a></p>
+				
+				<ul class="social-icons inline">
+					<li><a href="" class="icon-twitter"></a></li>
+					<li><a href="" class="icon-facebook"></a></li>
+					<li><a href="" class="icon-dribbble"></a></li>
+				</ul>
+				
+				<hr class="alt" />
+				
+				<h2>Need a Quote?</h2>
+				
+				<p class="narrow-p">Use the form below. All fields are required.</p>
+				
+				<form action="" method="POST" class="quote-form" novalidate>
+					<p>
+						<label for="quote-name">Full Name:</label>
+						<input type="text" name="quote-name" id="quote-name" />
+					</p>
+					<p>
+						<label for="quote-email">Email Address:</label>
+						<input type="email" name="quote-email" id="quote-email" />
+					</p>
+					<p>
+						<label for="quote-phone">Phone Number:</label>
+						<input type="text" name="quote-phone" id="quote-phone" />
+					</p>
+					<p class="select-container">
+						<label for="quote-project-type">Project Type:</label>
+						<select name="quote-project-type" id="quote-project-type">
+							<option value="0">- Select Project Type -</option>
+							<option value="1">Website</option>
+							<option value="2">Logo Design</option>
+							<option value="3">Print</option>
+						</select>
+					</p>
+					<p>
+						<label for="quote-project-description">Project Description:</label>
+						<textarea name="quote-project-description" id="quote-project-description" cols="30" rows="10"></textarea>
+					</p>
+					<p>
+						<label for="quote-budget">Available Budget:</label>
+						<input type="number" name="quote-budget" id="quote-budget" min="50" step="50" class="align-right" />
+					</p>
+					
+					<div class="cta">
+						<input type="submit" class="btn btn-primary" value="Give me a quote" />
+					</div> <!-- end cta -->
+				</form>
+			</div> <!-- end container -->
+		</div> <!-- end middle-container -->
+	</section>
+	
+	
+	
+	
+	
+	<!-- FOOTER -->
+	<footer class="main-footer section-content align-center" id="contact-info">
+		<p>&copy; Copyright 2013. Portfolio theme by Adi Purdila.</p>
+	</footer>
+
+</body>
+</html>
